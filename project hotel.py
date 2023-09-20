@@ -1,5 +1,5 @@
 print("THANK YOU FOR VISITING OUR HOTEL." "\n")
-print("your are requested to fill the given form" "\n")
+print("You are requested to fill the given form" "\n")
 print("PLEASE ENTER YOUR CHOICE" "\n")
 
 
@@ -25,15 +25,15 @@ class hotelcharge:
         self.rno = rno  # room number
 
     def inputdetails(self):
-        self.name = input("\nEnter your name:")
-        self.address = input("\nEnter your residential address:")
+        self.name = input("\nEnter your full name:")
+        self.address = input("\nEnter your residential city:")
         self.cindate = input("\nEnter your check in date:")
         self.coutdate = input("\nEnter your checkout date:")
         print("Your room no.:", self.rno, "\n")
 
     def roomrent(self):
 
-        print("We have the following rooms for you:-")
+        print("Room preference:-")
 
         print("1.  River View Cottage---->Rs 8000 PN\-")
 
@@ -45,7 +45,7 @@ class hotelcharge:
 
         x = int(input("Enter Your Choice Please->"))
 
-        n = int(input("For How Many Nights Did You Stay:"))  # n=number of nights
+        n = int(input("For How Many Nights Did You Stay? :"))  # n=number of nights
 
         if (x == 1):
 
@@ -80,10 +80,10 @@ class hotelcharge:
 
         print("*****RESTAURANT MENU*****")
         print("1.water----->Rs20")
-        print("2.tea----->Rs30")
-        print("3.breakfast --->Rs150")
-        print("4.lunch---->Rs350")
-        print("5.dinner--->Rs500")
+        print("2.Tea----->Rs30")
+        print("3.Breakfast --->Rs150")
+        print("4.Lunch---->Rs350")
+        print("5.Dinner--->Rs500")
         print("6.Breakfast+Lunch+Dinner+Soft Drinks (Buffay)--->Rs2500 /day")
 
         print("7.Exit")
